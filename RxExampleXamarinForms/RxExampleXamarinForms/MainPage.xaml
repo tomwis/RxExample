@@ -4,8 +4,9 @@
              xmlns:local="clr-namespace:RxExampleXamarinForms"
              x:Class="RxExampleXamarinForms.MainPage">
 
-	<Label Text="Welcome to Xamarin Forms!" 
-           VerticalOptions="Center" 
-           HorizontalOptions="Center" />
-
+    <StackLayout Padding="12">
+        <Label Text="Search:" VerticalOptions="Center" HorizontalOptions="Center" />
+        <Entry x:Name="searchEntry"/>
+        <Label x:Name="searchResults"/>
+    </StackLayout>
 </ContentPage>
